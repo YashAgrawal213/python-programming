@@ -1,0 +1,5 @@
+p=float(input("enter principle amount"))
+r=float(input("enter rate"))
+n=float(input("enter n value"))
+z=p*((1+(r/100))**n)
+print(z)
