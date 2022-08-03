@@ -1,0 +1,10 @@
+print("total marks=500")
+x=int(input("enter marks of first subject :"))
+y=int(input("enter marks of second subject:"))
+z=int(input("enter marks of third subject :"))
+a=int(input("enter marks of fourth subject:"))
+b=int(input("enter marks of fifth subject :"))
+t=a+b+x+y+z
+print("total marks=",t)
+p=t*100/500
+print("percentage =",p,"%")
